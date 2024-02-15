@@ -19,7 +19,7 @@ function SecondaryButton(props) {
     `;
     return (
         <Clickable >
-            <Button className='p-2 text-md'>
+            <Button className='p-2 text-md gray-text'>
                 {props.children}
             </Button>
         </Clickable>
