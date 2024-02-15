@@ -15,7 +15,7 @@ const HoverWrapper = styled.div`
 function Account() {
     return (
         <Clickable>
-            <div className='d-inline-flex align-items-center align-self-center'>
+            <div className='d-inline-flex align-items-center align-self-center '>
                 <img src={require('../../../../Images/Avatar.png')}></img>  {/* Аватарка */}
                 <HoverWrapper className='d-inline-flex align-items-center align-self-center'>
                     <Text className='text-rg-bd ms-3 me-2'>Антон И.</Text>  {/* Имя пользователя */}
